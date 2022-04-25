@@ -1,0 +1,28 @@
+{
+  "name": "store-api",
+  "version": "1.0.0",
+  "description": "An E-commerce store API",
+  "main": "app.js",
+  "scripts": {
+    "start": "nodemon app.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/collinsceleb/store-api.git"
+  },
+  "author": "Kolawole Afuye",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/collinsceleb/store-api/issues"
+  },
+  "homepage": "https://github.com/collinsceleb/store-api#readme",
+  "dependencies": {
+    "dotenv": "^16.0.0",
+    "express": "^4.17.3",
+    "express-async-errors": "^3.1.1",
+    "mongoose": "^6.3.1"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.15"
+  }
+}
